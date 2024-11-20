@@ -13,12 +13,12 @@ description: >
 # add a line comment on "theme: minima" above.
 remote_theme: jekyll/minima
 
-include: ['_pages']
+
 # If you want to link only specific pages in your header, use this and add the path to the pages
 # in order as they should show up.
 header_pages:
-  - ./pages/about.md
-  - ./pages/team.md
+  - about.md
+  - team.md
 
 # Set to `true` to show excerpts on the homepage.
 #show_excerpts: false
