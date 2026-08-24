@@ -86,7 +86,7 @@ Report at least:
 DigiMicPy can express this workflow by constructing a combined
 `MiCRMParameters` object and calling its existing solver, but it does not yet
 provide a dedicated coalescence helper. See the
-[DigiMicPy package documentation](https://digimic.org/DigiMicPy/content/coalescence.html)
+[DigiMicPy package documentation]({{ site.digimicpy_docs_url }}/content/coalescence.html)
 for the current Python recipe.
 
 [Back to all workflows]({{ '/workflows/' | relative_url }})

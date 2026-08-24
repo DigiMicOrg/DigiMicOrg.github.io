@@ -18,7 +18,7 @@ repository that owns each implementation.
     <p>The tested Python implementation, with core MiCRM simulation,
     temperature scaling, spatial coupling, examples, and a Jupyter Book.</p>
     <div class="card-links">
-      <a href="https://digimic.org/DigiMicPy/">Read the documentation <span aria-hidden="true">→</span></a>
+      <a href="{{ site.digimicpy_docs_url }}/">Read the documentation <span aria-hidden="true">→</span></a>
       <a href="https://github.com/DigiMicOrg/DigiMicPy">Browse the source <span aria-hidden="true">↗</span></a>
     </div>
   </article>
@@ -45,14 +45,14 @@ Package documentation explains how to carry them out with a supported API.
 - [Resource-processing flux]({{ '/workflows/resource-flux/' | relative_url }})
 - [Effective GLV reduction]({{ '/workflows/effective-glv/' | relative_url }})
 - [Stability and feasibility]({{ '/workflows/stability/' | relative_url }})
-- [Temperature scaling](https://digimic.org/DigiMicPy/content/temperature.html)
-- [Spatial coupling](https://digimic.org/DigiMicPy/content/spatial.html)
+- [Temperature scaling]({{ site.digimicpy_docs_url }}/content/temperature.html)
+- [Spatial coupling (integration documentation)](https://github.com/DigiMicOrg/DigiMicPy/blob/docs/package-api/docs/content/spatial.md)
 
 ## Training and support
 
-- [Installation and first simulation](https://digimic.org/DigiMicPy/content/useinfo.html)
-- [Model theory](https://digimic.org/DigiMicPy/content/theo.html)
-- [Python API reference](https://digimic.org/DigiMicPy/content/api.html)
+- [Installation and first simulation]({{ site.digimicpy_docs_url }}/content/useinfo.html)
+- [Model theory]({{ site.digimicpy_docs_url }}/content/theo.html)
+- [Python API reference (integration documentation)](https://github.com/DigiMicOrg/DigiMicPy/blob/docs/package-api/docs/content/api.md)
 - [Examples in the DigiMicPy repository](https://github.com/DigiMicOrg/DigiMicPy/tree/main/examples)
 - [Questions and feature requests](https://github.com/DigiMicOrg/DigiMicPy/issues)
 - [Platform support, funding, and contact]({{ '/support/' | relative_url }})

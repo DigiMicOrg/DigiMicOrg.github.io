@@ -67,6 +67,6 @@ resource drawdown, the evaluation state, and the model's resource-supply form.
 
 DigiMicPy exposes the state and parameter arrays needed to calculate these
 quantities explicitly. See its
-[resource-flux recipe](https://digimic.org/DigiMicPy/content/resource_flux.html).
+[resource-flux recipe]({{ site.digimicpy_docs_url }}/content/resource_flux.html).
 
 [Back to all workflows]({{ '/workflows/' | relative_url }})

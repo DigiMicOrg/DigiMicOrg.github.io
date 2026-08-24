@@ -67,7 +67,7 @@ carbon-use efficiency, resource-flux summaries, effective generalised
 Lotka-Volterra reductions, and stability analysis. Package documentation records
 which parts have a supported implementation.
 
-[Read the DigiMicPy documentation](https://digimic.org/DigiMicPy/){: .button .button-primary }
+[Read the DigiMicPy documentation]({{ site.digimicpy_docs_url }}/){: .button .button-primary }
 [View the Python source](https://github.com/DigiMicOrg/DigiMicPy){: .button .button-secondary }
 [Explore shared workflows]({{ '/workflows/' | relative_url }}){: .button .button-secondary }
 

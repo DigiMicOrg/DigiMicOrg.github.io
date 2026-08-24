@@ -1,9 +1,10 @@
 # DigiMic platform website
 
-This repository owns the DigiMic organisation website and the platform landing
-page for [digimic.org](https://digimic.org). It is the gateway to the DigiMic
-packages, documentation, research workflows, and training materials; package
-documentation remains owned and built by each package repository.
+This repository owns the DigiMic organisation website and is the designated
+future platform landing page for `digimic.org`. It is currently published at
+[digimicorg.github.io](https://digimicorg.github.io), while the DigiMicPy
+documentation owns the `digimic.org` custom domain. Package documentation
+remains owned and built by each package repository.
 
 This repository is the source of truth for platform-wide content: the project
 vision, shared scientific workflows, implementation comparisons, roadmap,
@@ -31,6 +32,15 @@ JEKYLL_ENV=production bundle exec jekyll build --trace
 
 Pushes to `master` build and deploy through GitHub Actions. Pull requests run
 the same Jekyll build without deploying.
+
+Current public routing is:
+
+- platform site: `https://digimicorg.github.io/`;
+- DigiMicPy documentation: `https://digimic.org/`.
+
+The `digimicpy_docs_url` setting in `_config.yml` is the canonical package-docs
+base URL used by this site. Update it only when the Pages domain transfer is
+complete.
 
 The custom-domain transfer is an administrative operation:
 

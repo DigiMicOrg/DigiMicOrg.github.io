@@ -30,7 +30,7 @@ description: Explore DigiMic packages, research workflows, and training material
       <p>Build and simulate microbial consumer-resource models, including
       temperature scaling and spatial coupling.</p>
       <div class="card-links">
-        <a href="https://digimic.org/DigiMicPy/">Documentation <span aria-hidden="true">→</span></a>
+        <a href="{{ site.digimicpy_docs_url }}/">Documentation <span aria-hidden="true">→</span></a>
         <a href="https://github.com/DigiMicOrg/DigiMicPy">Source code <span aria-hidden="true">↗</span></a>
       </div>
     </article>
@@ -55,7 +55,7 @@ description: Explore DigiMic packages, research workflows, and training material
       <span class="pathway-number" aria-hidden="true">01</span>
       <h3>Learn the model</h3>
       <p>Start with consumer-resource theory, model assumptions, and executable examples.</p>
-      <a href="https://digimic.org/DigiMicPy/content/useinfo.html">Training and usage <span aria-hidden="true">→</span></a>
+      <a href="{{ site.digimicpy_docs_url }}/content/useinfo.html">Training and usage <span aria-hidden="true">→</span></a>
     </article>
     <article>
       <span class="pathway-number" aria-hidden="true">02</span>

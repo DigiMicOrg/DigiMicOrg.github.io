@@ -1,7 +1,8 @@
 title: DigiMic
 tagline: The Digital Microbiome Platform
-url: https://digimic.org
+url: https://digimicorg.github.io
 baseurl: ""
+digimicpy_docs_url: https://digimic.org
 lang: en-GB
 timezone: Europe/London
 repository: DigiMicOrg/DigiMicOrg.github.io

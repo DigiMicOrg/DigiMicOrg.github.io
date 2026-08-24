@@ -71,7 +71,7 @@ weighting method, and treatment of near-zero denominators.
 
 DigiMicPy exposes the uptake, leakage, mortality, and equilibrium arrays needed
 for these calculations but has no dedicated CUE helper. Its
-[package recipe](https://digimic.org/DigiMicPy/content/cue.html) shows the
+[package recipe]({{ site.digimicpy_docs_url }}/content/cue.html) shows the
 current NumPy calculation.
 
 [Back to all workflows]({{ '/workflows/' | relative_url }})
