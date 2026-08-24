@@ -1,10 +1,36 @@
 team:
   - name: Samraat Pawar
-    role: Project contributor
+    role: Project maintainer
+    position: Professor of Theoretical Ecology, Imperial College London
+    img: /assets/img/profiles/samraat-pawar.png
+    alt: GitHub avatar for Samraat Pawar
     github: https://github.com/mhasoba
+    profile: https://profiles.imperial.ac.uk/s.pawar
+    profile_label: Imperial profile
   - name: Tom Clegg
-    role: Project contributor
+    role: Project maintainer
+    position: DigiMic.jl author and maintainer
+    img: /assets/img/profiles/tom-clegg.png
+    alt: GitHub avatar for Tom Clegg
     github: https://github.com/CleggTom
+  - name: Yan Zhu
+    role: Project maintainer
+    position: DigiMicPy author; Research Associate in Microbiome Optimisation in Agriculture, Imperial College London
+    img: /assets/img/profiles/yan-zhu.png
+    alt: GitHub avatar for Yan Zhu
+    github: https://github.com/yanzhu624
+  - name: "@juniper-jean"
+    role: Project maintainer
+    position: DigiMic platform stewardship
+    img: /assets/img/profiles/juniper-jean.png
+    alt: GitHub avatar for @juniper-jean
+    github: https://github.com/juniper-jean
+  - name: Georgios Kalogiannis
+    role: Project maintainer
+    position: Department of Evolutionary Biology and Environmental Studies, University of Zurich
+    img: /assets/img/profiles/georgios-kalogiannis.png
+    alt: GitHub avatar for Georgios Kalogiannis
+    github: https://github.com/g-kalogiannis
 
 digimicpy_contributors:
   - name: "@yanzhu624"
