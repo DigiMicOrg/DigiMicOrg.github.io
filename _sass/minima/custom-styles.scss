@@ -221,7 +221,7 @@ input:focus-visible {
 }
 
 .team-card {
-  align-items: center;
+  align-items: flex-start;
   border: 1px solid var(--digimic-line);
   border-radius: 16px;
   display: flex;
@@ -238,6 +238,37 @@ input:focus-visible {
 .team-card p {
   color: var(--digimic-muted);
   margin-bottom: .35rem;
+}
+
+.team-photo {
+  aspect-ratio: 1;
+  border: 2px solid var(--digimic-mint);
+  border-radius: 50%;
+  flex: 0 0 5rem;
+  height: 5rem;
+  object-fit: cover;
+  width: 5rem;
+}
+
+.team-details {
+  min-width: 0;
+}
+
+.team-card .team-role {
+  color: var(--digimic-green-dark);
+  font-weight: 700;
+  margin-bottom: .2rem;
+}
+
+.team-card .team-position {
+  line-height: 1.45;
+  margin-bottom: .55rem;
+}
+
+.team-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem 1rem;
 }
 
 .team-avatar {

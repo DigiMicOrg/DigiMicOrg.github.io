@@ -9,18 +9,27 @@ DigiMic is an open collaboration across microbial ecology, mathematical
 modelling, bioinformatics, and research software. Repository histories preserve
 the full record of code-level contributions.
 
-## Platform contributors
+## Project team
+
+The project team comprises the maintainers working across the DigiMic platform,
+DigiMicPy, and DigiMic.jl.
 
 <div class="team-grid">
 {% for person in site.data.team.team %}
 <article class="team-card">
-  <div class="team-avatar" aria-hidden="true">{{ person.name | slice: 0 }}</div>
-  <div>
+  <img class="team-photo" src="{{ person.img | relative_url }}" alt="{{ person.alt }}" width="460" height="460" loading="lazy">
+  <div class="team-details">
     <h2>{{ person.name }}</h2>
-    <p>{{ person.role }}</p>
-    {% if person.github %}
-      <a href="{{ person.github }}">GitHub profile <span aria-hidden="true">↗</span></a>
-    {% endif %}
+    <p class="team-role">{{ person.role }}</p>
+    <p class="team-position">{{ person.position }}</p>
+    <div class="team-links">
+      {% if person.github %}
+        <a href="{{ person.github }}">GitHub <span aria-hidden="true">↗</span></a>
+      {% endif %}
+      {% if person.profile %}
+        <a href="{{ person.profile }}">{{ person.profile_label | default: "Profile" }} <span aria-hidden="true">↗</span></a>
+      {% endif %}
+    </div>
   </div>
 </article>
 {% endfor %}
