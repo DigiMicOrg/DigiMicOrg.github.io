@@ -41,11 +41,13 @@ The long-term DigiMic workflow connects three layers:
 2. **Microbiome modelling:** use those parameters in consumer-resource models to predict changes in community composition, resource chemistry, and carbon processing under different environmental conditions.
 3. **Data and validation:** compare predictions with laboratory experiments and observations from real microbial communities, then use discrepancies to refine model assumptions and parameterisation.
 
-The modelling layer is available today. Automated interfaces that translate
-omics data or genome-scale metabolic models into MiCRM parameters are not yet
-implemented; current simulations use synthetic parameter generators or
-parameters supplied by the researcher. Building this bridge is a central
-development direction for the project.
+The modelling layer is available today. Current simulations use synthetic
+parameter generators or parameters supplied by the researcher. TPCP is being
+developed as a separate, general parameterisation package to translate
+genome-scale metabolic models (GEMs) and supporting biological or environmental
+information into consumer-resource model parameters usable by either DigiMicPy
+or DigiMic.jl. Temperature-aware parameterisation is a key application within
+that broader GEM-to-CRM bridge, rather than its sole purpose.
 
 ## What is available today?
 
@@ -58,9 +60,11 @@ The tested Python package supports:
 
 - synthetic microbial communities with modular resource preferences;
 - simulation of consumer and resource trajectories;
-- configurable uptake, leakage, mortality, resource supply, and loss;
-- fixed-temperature scaling of uptake and mortality; and
-- conservative coupling between spatial patches.
+- configurable uptake, leakage, mortality, resource supply, and loss.
+
+Fixed-temperature scaling and conservative spatial coupling are under active
+integration. Package documentation records which capabilities are present in
+the version or branch being used.
 
 The platform documentation defines shared workflows for community coalescence,
 carbon-use efficiency, resource-flux summaries, effective generalised
