@@ -42,6 +42,12 @@ specific language or API.
     coexistence in full and reduced models.</p>
     <a href="{{ '/workflows/stability/' | relative_url }}">Read the workflow <span aria-hidden="true">→</span></a>
   </article>
+  <article class="gateway-card">
+    <h2>Temperature scaling</h2>
+    <p>Define thermal trait responses, distinguish fixed and time-varying
+    environments, and report biological and numerical assumptions.</p>
+    <a href="{{ '/workflows/temperature/' | relative_url }}">Read the workflow <span aria-hidden="true">→</span></a>
+  </article>
 </div>
 
 ## Implementations

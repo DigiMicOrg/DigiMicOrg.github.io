@@ -32,6 +32,14 @@ repository that owns each implementation.
       <a href="https://github.com/DigiMicOrg/DigiMic">Setup and source <span aria-hidden="true">↗</span></a>
     </div>
   </article>
+
+  <article class="gateway-card" id="tpcp">
+    <span class="status-pill">Separate package · migration planned</span>
+    <h3>TPC Prediction Package (TPCP)</h3>
+    <p>A separate sequence-informed package for predicting microbial growth
+    temperature-performance curves. Its package manual will live with its own
+    source when the repository is brought under DigiMicOrg.</p>
+  </article>
 </div>
 
 ## Workflows
@@ -45,7 +53,7 @@ Package documentation explains how to carry them out with a supported API.
 - [Resource-processing flux]({{ '/workflows/resource-flux/' | relative_url }})
 - [Effective GLV reduction]({{ '/workflows/effective-glv/' | relative_url }})
 - [Stability and feasibility]({{ '/workflows/stability/' | relative_url }})
-- [Temperature scaling]({{ site.digimicpy_docs_url }}/content/temperature.html)
+- [Temperature scaling]({{ '/workflows/temperature/' | relative_url }})
 - [Spatial coupling (integration documentation)](https://github.com/DigiMicOrg/DigiMicPy/blob/docs/package-api/docs/content/spatial.md)
 
 ## Training and support
