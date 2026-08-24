@@ -11,14 +11,15 @@ author:
   name: DigiMicOrg
 
 description: >-
-  Open tools, workflows, and training materials for mechanistic digital
-  microbiome research.
+  The authoritative gateway to DigiMic packages, shared scientific workflows,
+  and training for mechanistic digital microbiome research.
 
 header_pages:
   - about.md
   - workflows.md
   - resources.md
   - team.md
+  - support.md
 
 minima:
   skin: classic

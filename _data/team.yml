@@ -2,7 +2,6 @@ team:
   - name: Samraat Pawar
     role: Project maintainer
     position: Professor of Theoretical Ecology, Imperial College London
-    img: /assets/img/profiles/samraat-pawar.png
     alt: GitHub avatar for Samraat Pawar
     github: https://github.com/mhasoba
     profile: https://profiles.imperial.ac.uk/s.pawar
@@ -10,34 +9,67 @@ team:
   - name: Tom Clegg
     role: Project maintainer
     position: DigiMic.jl author and maintainer
-    img: /assets/img/profiles/tom-clegg.png
     alt: GitHub avatar for Tom Clegg
     github: https://github.com/CleggTom
   - name: Yan Zhu
     role: Project maintainer
-    position: DigiMicPy author; Research Associate in Microbiome Optimisation in Agriculture, Imperial College London
-    img: /assets/img/profiles/yan-zhu.png
+    position: DigiMicPy author; Research Associate, Imperial College London
     alt: GitHub avatar for Yan Zhu
     github: https://github.com/yanzhu624
-  - name: "@juniper-jean"
-    role: Project maintainer
-    position: DigiMic platform stewardship
-    img: /assets/img/profiles/juniper-jean.png
-    alt: GitHub avatar for @juniper-jean
-    github: https://github.com/juniper-jean
   - name: Georgios Kalogiannis
     role: Project maintainer
     position: Department of Evolutionary Biology and Environmental Studies, University of Zurich
-    img: /assets/img/profiles/georgios-kalogiannis.png
     alt: GitHub avatar for Georgios Kalogiannis
     github: https://github.com/g-kalogiannis
-
-digimicpy_contributors:
-  - name: "@yanzhu624"
-    github: https://github.com/yanzhu624
-  - name: Samraat Pawar (@mhasoba)
-    github: https://github.com/mhasoba
-  - name: "@chanli01"
-    github: https://github.com/chanli01
-  - name: ZB (@Lakezh)
+  - name: Zhongbin Hu
+    role: Project maintainer
+    position: PhD Student, Imperial College London
+    alt: GitHub avatar for Zhongbin Hu
     github: https://github.com/Lakezh
+
+package_contributors:
+  - name: DigiMicPy
+    repository: https://github.com/DigiMicOrg/DigiMicPy
+    history: https://github.com/DigiMicOrg/DigiMicPy/graphs/contributors
+    description: Python microbial consumer-resource modelling package.
+    contributors:
+      - name: Yan Zhu
+        handle: "@yanzhu624"
+        role: Primary contributor
+        github: https://github.com/yanzhu624
+      - name: Samraat Pawar
+        handle: "@mhasoba"
+        role: Contributor
+        github: https://github.com/mhasoba
+      - name: "@chanli01"
+        role: Contributor
+        github: https://github.com/chanli01
+      - name: Zhongbin Hu
+        handle: "@Lakezh"
+        role: Contributor
+        github: https://github.com/Lakezh
+
+  - name: DigiMic.jl
+    repository: https://github.com/DigiMicOrg/DigiMic
+    history: https://github.com/DigiMicOrg/DigiMic/graphs/contributors
+    description: Julia microbial consumer-resource modelling package, imported as MiCRM.
+    contributors:
+      - name: Tom Clegg
+        handle: "@CleggTom"
+        role: Primary contributor
+        github: https://github.com/CleggTom
+      - name: Samraat Pawar
+        handle: "@mhasoba"
+        role: Contributor
+        github: https://github.com/mhasoba
+      - name: "@MustriM95"
+        role: Contributor
+        github: https://github.com/MustriM95
+
+  - name: TPCP
+    description: Incoming GEM-based CRM parameterisation package; repository migration is pending.
+    contributors:
+      - name: Zhongbin Hu
+        handle: "@Lakezh"
+        role: Primary contributor
+        github: https://github.com/Lakezh

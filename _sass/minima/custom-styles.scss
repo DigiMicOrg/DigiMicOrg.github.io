@@ -150,6 +150,15 @@ input:focus-visible {
   border-top: 5px solid var(--digimic-green);
 }
 
+.gateway-card-wide {
+  grid-column: 1 / -1;
+}
+
+.parameterisation-card {
+  background: linear-gradient(135deg, var(--digimic-mint), #fff 72%);
+  border-left: 5px solid var(--digimic-green);
+}
+
 .gateway-card h2,
 .gateway-card h3 {
   font-size: 1.75rem;
@@ -182,6 +191,37 @@ input:focus-visible {
   border-radius: 24px;
   padding-left: clamp(1.25rem, 4vw, 3rem);
   padding-right: clamp(1.25rem, 4vw, 3rem);
+}
+
+.documentation-boundary {
+  background: var(--digimic-sand);
+  border: 1px solid var(--digimic-line);
+  border-radius: 24px;
+  padding-left: clamp(1.25rem, 4vw, 3rem);
+  padding-right: clamp(1.25rem, 4vw, 3rem);
+}
+
+.workflow-link-grid {
+  display: grid;
+  gap: .8rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  list-style: none;
+  margin: 2rem 0 0;
+}
+
+.workflow-link-grid a {
+  background: rgba(255, 255, 255, .78);
+  border: 1px solid rgba(13, 91, 73, .2);
+  border-radius: 12px;
+  display: block;
+  font-weight: 700;
+  height: 100%;
+  padding: 1rem;
+}
+
+.workflow-link-grid a:hover {
+  background: #fff;
+  text-decoration: none;
 }
 
 .pathway-grid {
@@ -230,7 +270,9 @@ input:focus-visible {
   padding: 1.3rem;
 }
 
-.team-card h2 {
+.team-card h2,
+.team-card h3,
+.team-card h4 {
   font-size: 1.25rem;
   font-weight: 700;
   margin: 0 0 .25rem;
@@ -285,6 +327,14 @@ input:focus-visible {
   justify-content: center;
 }
 
+.package-contributors {
+  margin-top: 3rem;
+}
+
+.package-contributors > .team-grid {
+  margin-top: 1.25rem;
+}
+
 .contributor-note {
   background: var(--digimic-sand);
   border-radius: 16px;
@@ -320,7 +370,8 @@ input:focus-visible {
   .gateway-grid,
   .pathway-grid,
   .project-vision,
-  .team-grid {
+  .team-grid,
+  .workflow-link-grid {
     grid-template-columns: 1fr;
   }
 

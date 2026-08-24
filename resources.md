@@ -15,8 +15,9 @@ repository that owns each implementation.
   <article class="gateway-card gateway-card-featured">
     <span class="status-pill">Python 3.11+</span>
     <h3>DigiMicPy</h3>
-    <p>The tested Python implementation, with core MiCRM simulation,
-    temperature scaling, spatial coupling, examples, and a Jupyter Book.</p>
+    <p>The Python implementation, with validated MiCRM parameters, reproducible
+    parameter generators, consumer-resource simulation, examples, and a
+    package-owned Jupyter Book.</p>
     <div class="card-links">
       <a href="{{ site.digimicpy_docs_url }}/">Read the documentation <span aria-hidden="true">→</span></a>
       <a href="https://github.com/DigiMicOrg/DigiMicPy">Browse the source <span aria-hidden="true">↗</span></a>
@@ -33,14 +34,24 @@ repository that owns each implementation.
     </div>
   </article>
 
-  <article class="gateway-card" id="tpcp">
-    <span class="status-pill">Separate package · migration planned</span>
-    <h3>TPC Prediction Package (TPCP)</h3>
-    <p>A separate sequence-informed package for predicting microbial growth
-    temperature-performance curves. Its package manual will live with its own
-    source when the repository is brought under DigiMicOrg.</p>
+  <article class="gateway-card gateway-card-wide parameterisation-card" id="tpcp">
+    <span class="status-pill">Incoming package · GEM → CRM</span>
+    <h3>TPCP: GEM-based CRM parameterisation</h3>
+    <p>TPCP is a separate, general-purpose parameterisation package under
+    development. It will translate genome-scale metabolic models (GEMs) and
+    supporting biological or environmental information into parameters for
+    consumer-resource models (CRMs) used by DigiMicPy or DigiMic.jl.</p>
+    <p>Temperature-aware growth and metabolic responses are a key application,
+    not the package's only focus. Its wider scope includes resource uptake,
+    secretion and leakage, biomass production, maintenance, and medium
+    constraints. The package manual will live with its own source when the
+    repository is brought under DigiMicOrg.</p>
   </article>
 </div>
+
+The [documentation ownership policy]({{ '/documentation/' | relative_url }})
+defines the boundary between this platform and package-owned implementation
+documentation.
 
 ## Workflows
 
