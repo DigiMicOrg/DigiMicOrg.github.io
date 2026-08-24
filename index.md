@@ -61,13 +61,13 @@ description: Explore DigiMic packages, research workflows, and training material
       <span class="pathway-number" aria-hidden="true">02</span>
       <h3>Build a workflow</h3>
       <p>Explore community coalescence, carbon-use efficiency, temperature, space, and resource flux.</p>
-      <a href="https://digimic.org/DigiMicPy/content/advanced_usage.html">Advanced workflows <span aria-hidden="true">→</span></a>
+      <a href="{{ '/workflows/' | relative_url }}">Research workflows <span aria-hidden="true">→</span></a>
     </article>
     <article>
       <span class="pathway-number" aria-hidden="true">03</span>
       <h3>Contribute</h3>
       <p>Bring a research question, dataset, example, or model extension to the open project.</p>
-      <a href="https://github.com/orgs/DigiMicOrg/repositories">DigiMic repositories <span aria-hidden="true">↗</span></a>
+      <a href="{{ '/support/' | relative_url }}">Support and contribution <span aria-hidden="true">→</span></a>
     </article>
   </div>
 </section>
