@@ -270,7 +270,9 @@ input:focus-visible {
   padding: 1.3rem;
 }
 
-.team-card h2 {
+.team-card h2,
+.team-card h3,
+.team-card h4 {
   font-size: 1.25rem;
   font-weight: 700;
   margin: 0 0 .25rem;
@@ -323,6 +325,14 @@ input:focus-visible {
   font-weight: 800;
   height: 3.2rem;
   justify-content: center;
+}
+
+.package-contributors {
+  margin-top: 3rem;
+}
+
+.package-contributors > .team-grid {
+  margin-top: 1.25rem;
 }
 
 .contributor-note {
