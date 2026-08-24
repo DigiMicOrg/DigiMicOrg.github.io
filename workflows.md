@@ -46,7 +46,7 @@ specific language or API.
 
 ## Implementations
 
-The [DigiMicPy documentation](https://digimic.org/DigiMicPy/) provides the
+The [DigiMicPy documentation]({{ site.digimicpy_docs_url }}/) provides the
 current Python model API and executable examples. The
 [DigiMic.jl repository](https://github.com/DigiMicOrg/DigiMic) documents the
 Julia implementation. Shared scientific aims do not imply numerical or API
