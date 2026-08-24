@@ -15,6 +15,7 @@ description: >-
 
 header_pages:
   - about.md
+  - workflows.md
   - resources.md
   - team.md
 

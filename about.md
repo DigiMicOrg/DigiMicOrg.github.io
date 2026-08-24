@@ -31,9 +31,7 @@ behaviour.
 *The DigiMic vision connects metabolic parameterisation to predictive community
 models and validation against laboratory and field observations. Metabolic-model
 interfaces and automated omics-based parameterisation are development goals
-rather than current package features. Figure reproduced from the
-[DigiMicPy documentation](https://github.com/DigiMicOrg/DigiMicPy/blob/main/docs/content/figures/DigiMic.jpg)
-(MIT Licence, Copyright 2025 EcoEng Lab).*
+rather than current package features.*
 
 ## From omics to community dynamics
 
@@ -64,13 +62,14 @@ The tested Python package supports:
 - fixed-temperature scaling of uptake and mortality; and
 - conservative coupling between spatial patches.
 
-The DigiMicPy documentation also develops manual workflows for community
-coalescence, carbon-use efficiency, and resource-flux summaries. Effective
-generalised Lotka-Volterra conversion and analysis are currently theory only,
-with a package API planned.
+The platform documentation defines shared workflows for community coalescence,
+carbon-use efficiency, resource-flux summaries, effective generalised
+Lotka-Volterra reductions, and stability analysis. Package documentation records
+which parts have a supported implementation.
 
 [Read the DigiMicPy documentation](https://digimic.org/DigiMicPy/){: .button .button-primary }
 [View the Python source](https://github.com/DigiMicOrg/DigiMicPy){: .button .button-secondary }
+[Explore shared workflows]({{ '/workflows/' | relative_url }}){: .button .button-secondary }
 
 ### DigiMic.jl
 

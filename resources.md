@@ -36,16 +36,17 @@ repository that owns each implementation.
 
 ## Workflows
 
-The DigiMicPy book currently provides the broadest set of worked research
-pathways. Some pages document supported APIs; others are explicitly marked as
-theory or manual workflows where a packaged helper is not yet available.
+The platform owns the scientific definitions, assumptions, interpretation, and
+reporting guidance for workflows that may span more than one implementation.
+Package documentation explains how to carry them out with a supported API.
 
-- [Community coalescence](https://digimic.org/DigiMicPy/content/coalescence.html)
-- [Carbon-use efficiency](https://digimic.org/DigiMicPy/content/cue.html)
+- [Community coalescence]({{ '/workflows/coalescence/' | relative_url }})
+- [Carbon-use efficiency]({{ '/workflows/carbon-use-efficiency/' | relative_url }})
+- [Resource-processing flux]({{ '/workflows/resource-flux/' | relative_url }})
+- [Effective GLV reduction]({{ '/workflows/effective-glv/' | relative_url }})
+- [Stability and feasibility]({{ '/workflows/stability/' | relative_url }})
 - [Temperature scaling](https://digimic.org/DigiMicPy/content/temperature.html)
 - [Spatial coupling](https://digimic.org/DigiMicPy/content/spatial.html)
-- [Resource-flux summaries](https://digimic.org/DigiMicPy/content/resource_flux.html)
-- [Analysis and stability](https://digimic.org/DigiMicPy/content/analysis.html)
 
 ## Training and support
 
@@ -54,6 +55,7 @@ theory or manual workflows where a packaged helper is not yet available.
 - [Python API reference](https://digimic.org/DigiMicPy/content/api.html)
 - [Examples in the DigiMicPy repository](https://github.com/DigiMicOrg/DigiMicPy/tree/main/examples)
 - [Questions and feature requests](https://github.com/DigiMicOrg/DigiMicPy/issues)
+- [Platform support, funding, and contact]({{ '/support/' | relative_url }})
 
 The packages are early-stage research software. Check each repository's README
 and release history before depending on an API for a long-lived workflow.

@@ -5,6 +5,13 @@ page for [digimic.org](https://digimic.org). It is the gateway to the DigiMic
 packages, documentation, research workflows, and training materials; package
 documentation remains owned and built by each package repository.
 
+This repository is the source of truth for platform-wide content: the project
+vision, shared scientific workflows, implementation comparisons, roadmap,
+training directory, funding, team, contribution routes, and general contact
+information. Package repositories own installation, API, implementation,
+examples, and package-development documentation. See the public
+[documentation ownership policy](documentation.md).
+
 ## Local development
 
 Ruby 3.3 is used in CI.
